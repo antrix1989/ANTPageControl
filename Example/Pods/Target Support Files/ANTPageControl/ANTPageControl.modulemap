@@ -1,0 +1,6 @@
+framework module ANTPageControl {
+  umbrella header "ANTPageControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

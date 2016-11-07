@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ANTPageControl_Example' do
+  pod 'ANTPageControl', :path => '../'
+
+  target 'ANTPageControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

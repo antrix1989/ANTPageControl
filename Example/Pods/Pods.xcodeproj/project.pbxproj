@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D11F3E605F1EE156813A40661689BF6 /* ANTPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A5FED8C7845D354F0A1F3CA9D3D11 /* ANTPageControl-dummy.m */; };
+		2399E0561DD019450043B8D0 /* ANTPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2399E0541DD019450043B8D0 /* ANTPageControl.h */; };
+		2399E0571DD019450043B8D0 /* ANTPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2399E0551DD019450043B8D0 /* ANTPageControl.m */; };
+		35C381ED4FCAB76C58A77E0E4B8499E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4DD9AAF0C114AA98A5F408EAB1E440F6 /* Pods-ANTPageControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 397C075CCA59BEFC44CA0D526589D064 /* Pods-ANTPageControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		593497E7D8C1CE37799AA53905CAD4EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7B9E0BFE6B02F43AFA64F6FF3397B70D /* Pods-ANTPageControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EDCC632CD8F2EC81CD405FC2B35A5 /* Pods-ANTPageControl_Tests-dummy.m */; };
+		9CE3027FE3C727B028FE2213B8D8CE07 /* ANTPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6B82635E011F8D601F3E161B9C9C89F /* ANTPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B315E589E7A3F28E8A98C9B610D7F075 /* Pods-ANTPageControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD1D56B46FA5B5B3945590B1A305FEC8 /* Pods-ANTPageControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA4B39540DA9574924C1EFD7940064BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E4F17562A62B326F0A0A98906A15C677 /* Pods-ANTPageControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA60914E9B69101C5A7C969C0170BC8 /* Pods-ANTPageControl_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A07D49D7D2A1AD0DC13990EF76181C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03A811F4B3C708BA825C06E1D955FD7A;
+			remoteInfo = ANTPageControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1714AFA4454A90E8D32B2777E8466959 /* Pods-ANTPageControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ANTPageControl_Example.modulemap"; sourceTree = "<group>"; };
+		1FAAD8FE20C58F9AFA440BF4D7FC7D72 /* Pods-ANTPageControl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ANTPageControl_Example-resources.sh"; sourceTree = "<group>"; };
+		20C5756777D64F1648B17A134D8FD9F7 /* Pods-ANTPageControl_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ANTPageControl_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2399E0541DD019450043B8D0 /* ANTPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANTPageControl.h; sourceTree = "<group>"; };
+		2399E0551DD019450043B8D0 /* ANTPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANTPageControl.m; sourceTree = "<group>"; };
+		2734B17656575062AC4272EADE56FA7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33AB18E83380414EA0AE55279D1EA818 /* Pods-ANTPageControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANTPageControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		397C075CCA59BEFC44CA0D526589D064 /* Pods-ANTPageControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ANTPageControl_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3E9F271DC1B6228C61628AD8BA216CAD /* Pods-ANTPageControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ANTPageControl_Example-frameworks.sh"; sourceTree = "<group>"; };
+		405CE75B57E9E98277685E2ED95E1096 /* Pods-ANTPageControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ANTPageControl_Tests.modulemap"; sourceTree = "<group>"; };
+		4FEE94BA5F11CE336C88026F637C4B81 /* Pods-ANTPageControl_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ANTPageControl_Tests-resources.sh"; sourceTree = "<group>"; };
+		5B4EDCC632CD8F2EC81CD405FC2B35A5 /* Pods-ANTPageControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ANTPageControl_Tests-dummy.m"; sourceTree = "<group>"; };
+		6328F2AD7BA8CB3F2D8958FB2B2FCF1A /* ANTPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANTPageControl-prefix.pch"; sourceTree = "<group>"; };
+		64D5C13CF58B681F16EA0DD3769654F4 /* Pods-ANTPageControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANTPageControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		68DD62AAC37ACB3CF1FB1E34C15E3906 /* Pods-ANTPageControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANTPageControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E0F7E64B9E4F56E8B9A2E2FEED28DA4 /* Pods-ANTPageControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ANTPageControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		723169E5655969E598476D425F16D3B3 /* ANTPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ANTPageControl.modulemap; sourceTree = "<group>"; };
+		794A5FED8C7845D354F0A1F3CA9D3D11 /* ANTPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ANTPageControl-dummy.m"; sourceTree = "<group>"; };
+		7DA60914E9B69101C5A7C969C0170BC8 /* Pods-ANTPageControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ANTPageControl_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E92CF634C9C14F044958059BC2A5790 /* Pods_ANTPageControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANTPageControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30A8CDB040461A9DBDAFDF3D532ECA8 /* Pods-ANTPageControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANTPageControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B98A0C6EE53A0CAF9563502E746C80AE /* ANTPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ANTPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1D56B46FA5B5B3945590B1A305FEC8 /* Pods-ANTPageControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ANTPageControl_Example-umbrella.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1CB4FD6D8E9148A99D46D790984A60C /* ANTPageControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ANTPageControl.xcconfig; sourceTree = "<group>"; };
+		D6B82635E011F8D601F3E161B9C9C89F /* ANTPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANTPageControl-umbrella.h"; sourceTree = "<group>"; };
+		D839D63AE24CA29A9426C1B2C65450C5 /* Pods-ANTPageControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANTPageControl_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D883462A6C3245F59CEE268B9C6FB06F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA5B0AC686F7E5CBE8F0449C5B055B33 /* Pods-ANTPageControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ANTPageControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA494289F83B09A82A8F72D5D7709F84 /* Pods_ANTPageControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANTPageControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F6D29BD226F0E47C8CE18E1FC847C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34BF964F19A8BF69DF7120B0B850026 /* Pods-ANTPageControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANTPageControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3C83C3383179E32B1FA100F4EB15799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593497E7D8C1CE37799AA53905CAD4EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59B3EF9F0AF02B969AFB4F02FA00662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4B39540DA9574924C1EFD7940064BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0C21C24DDBA2D862B91F9C46C807B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C381ED4FCAB76C58A77E0E4B8499E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00AC1B9321084D11B5CF6203B2A76EC6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				348735D6586D429602B2FC6377900F99 /* ANTPageControl */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		01415E134F393BF3C3E5C2F8B7565EDB /* Pods-ANTPageControl_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D883462A6C3245F59CEE268B9C6FB06F /* Info.plist */,
+				1714AFA4454A90E8D32B2777E8466959 /* Pods-ANTPageControl_Example.modulemap */,
+				6E0F7E64B9E4F56E8B9A2E2FEED28DA4 /* Pods-ANTPageControl_Example-acknowledgements.markdown */,
+				B30A8CDB040461A9DBDAFDF3D532ECA8 /* Pods-ANTPageControl_Example-acknowledgements.plist */,
+				7DA60914E9B69101C5A7C969C0170BC8 /* Pods-ANTPageControl_Example-dummy.m */,
+				3E9F271DC1B6228C61628AD8BA216CAD /* Pods-ANTPageControl_Example-frameworks.sh */,
+				1FAAD8FE20C58F9AFA440BF4D7FC7D72 /* Pods-ANTPageControl_Example-resources.sh */,
+				CD1D56B46FA5B5B3945590B1A305FEC8 /* Pods-ANTPageControl_Example-umbrella.h */,
+				F34BF964F19A8BF69DF7120B0B850026 /* Pods-ANTPageControl_Example.debug.xcconfig */,
+				D839D63AE24CA29A9426C1B2C65450C5 /* Pods-ANTPageControl_Example.release.xcconfig */,
+			);
+			name = "Pods-ANTPageControl_Example";
+			path = "Target Support Files/Pods-ANTPageControl_Example";
+			sourceTree = "<group>";
+		};
+		14444A851A260F9ECA596892142BACB2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01415E134F393BF3C3E5C2F8B7565EDB /* Pods-ANTPageControl_Example */,
+				641BCF2F858548366B582131DBA6EF31 /* Pods-ANTPageControl_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		32B1DB8D3E613767BFD089BFE5086147 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				723169E5655969E598476D425F16D3B3 /* ANTPageControl.modulemap */,
+				D1CB4FD6D8E9148A99D46D790984A60C /* ANTPageControl.xcconfig */,
+				794A5FED8C7845D354F0A1F3CA9D3D11 /* ANTPageControl-dummy.m */,
+				6328F2AD7BA8CB3F2D8958FB2B2FCF1A /* ANTPageControl-prefix.pch */,
+				D6B82635E011F8D601F3E161B9C9C89F /* ANTPageControl-umbrella.h */,
+				F1F6D29BD226F0E47C8CE18E1FC847C6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ANTPageControl";
+			sourceTree = "<group>";
+		};
+		348735D6586D429602B2FC6377900F99 /* ANTPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				9E8C343F6A452B8D488B9040ED943DDE /* ANTPageControl */,
+				32B1DB8D3E613767BFD089BFE5086147 /* Support Files */,
+			);
+			name = ANTPageControl;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		641BCF2F858548366B582131DBA6EF31 /* Pods-ANTPageControl_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2734B17656575062AC4272EADE56FA7D /* Info.plist */,
+				405CE75B57E9E98277685E2ED95E1096 /* Pods-ANTPageControl_Tests.modulemap */,
+				DA5B0AC686F7E5CBE8F0449C5B055B33 /* Pods-ANTPageControl_Tests-acknowledgements.markdown */,
+				64D5C13CF58B681F16EA0DD3769654F4 /* Pods-ANTPageControl_Tests-acknowledgements.plist */,
+				5B4EDCC632CD8F2EC81CD405FC2B35A5 /* Pods-ANTPageControl_Tests-dummy.m */,
+				20C5756777D64F1648B17A134D8FD9F7 /* Pods-ANTPageControl_Tests-frameworks.sh */,
+				4FEE94BA5F11CE336C88026F637C4B81 /* Pods-ANTPageControl_Tests-resources.sh */,
+				397C075CCA59BEFC44CA0D526589D064 /* Pods-ANTPageControl_Tests-umbrella.h */,
+				68DD62AAC37ACB3CF1FB1E34C15E3906 /* Pods-ANTPageControl_Tests.debug.xcconfig */,
+				33AB18E83380414EA0AE55279D1EA818 /* Pods-ANTPageControl_Tests.release.xcconfig */,
+			);
+			name = "Pods-ANTPageControl_Tests";
+			path = "Target Support Files/Pods-ANTPageControl_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				00AC1B9321084D11B5CF6203B2A76EC6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				94509A066758019D958A59CF89A8ED92 /* Products */,
+				14444A851A260F9ECA596892142BACB2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94509A066758019D958A59CF89A8ED92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B98A0C6EE53A0CAF9563502E746C80AE /* ANTPageControl.framework */,
+				EA494289F83B09A82A8F72D5D7709F84 /* Pods_ANTPageControl_Example.framework */,
+				9E92CF634C9C14F044958059BC2A5790 /* Pods_ANTPageControl_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E8C343F6A452B8D488B9040ED943DDE /* ANTPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				C27E04746BC8090309FF42493726C4F7 /* Classes */,
+			);
+			path = ANTPageControl;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C27E04746BC8090309FF42493726C4F7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2399E0541DD019450043B8D0 /* ANTPageControl.h */,
+				2399E0551DD019450043B8D0 /* ANTPageControl.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		174250B5A20361F6CFCC1DF67E902D98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE3027FE3C727B028FE2213B8D8CE07 /* ANTPageControl-umbrella.h in Headers */,
+				2399E0561DD019450043B8D0 /* ANTPageControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F7CA0DD8E03632A614C901D1BF572D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD9AAF0C114AA98A5F408EAB1E440F6 /* Pods-ANTPageControl_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD180C72910E1186B2EFA6F223CB1B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B315E589E7A3F28E8A98C9B610D7F075 /* Pods-ANTPageControl_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03A811F4B3C708BA825C06E1D955FD7A /* ANTPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272AF3F50506F7791708339C6800132B /* Build configuration list for PBXNativeTarget "ANTPageControl" */;
+			buildPhases = (
+				12DE1A18C4975148EEE4FB7E9635BC72 /* Sources */,
+				B3C83C3383179E32B1FA100F4EB15799 /* Frameworks */,
+				174250B5A20361F6CFCC1DF67E902D98 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANTPageControl;
+			productName = ANTPageControl;
+			productReference = B98A0C6EE53A0CAF9563502E746C80AE /* ANTPageControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		305C59FE8ABDE0C91189E2A4A8DFB42D /* Pods-ANTPageControl_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1313675E85B03CF3A26E89D2CF40A866 /* Build configuration list for PBXNativeTarget "Pods-ANTPageControl_Example" */;
+			buildPhases = (
+				28DBBEC3F933423FE5089073F2AB7567 /* Sources */,
+				D59B3EF9F0AF02B969AFB4F02FA00662 /* Frameworks */,
+				9FD180C72910E1186B2EFA6F223CB1B2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CFBFAB89703A2E32CF3174BEEA6B6FC /* PBXTargetDependency */,
+			);
+			name = "Pods-ANTPageControl_Example";
+			productName = "Pods-ANTPageControl_Example";
+			productReference = EA494289F83B09A82A8F72D5D7709F84 /* Pods_ANTPageControl_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAFC90007E4CD888591516AF1E1436DA /* Pods-ANTPageControl_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B3D92E67CFEC7E69B394E01D636243 /* Build configuration list for PBXNativeTarget "Pods-ANTPageControl_Tests" */;
+			buildPhases = (
+				1B3A8A3AC94D8790FFC1A9176E38DE92 /* Sources */,
+				DE0C21C24DDBA2D862B91F9C46C807B4 /* Frameworks */,
+				67F7CA0DD8E03632A614C901D1BF572D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ANTPageControl_Tests";
+			productName = "Pods-ANTPageControl_Tests";
+			productReference = 9E92CF634C9C14F044958059BC2A5790 /* Pods_ANTPageControl_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 94509A066758019D958A59CF89A8ED92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03A811F4B3C708BA825C06E1D955FD7A /* ANTPageControl */,
+				305C59FE8ABDE0C91189E2A4A8DFB42D /* Pods-ANTPageControl_Example */,
+				AAFC90007E4CD888591516AF1E1436DA /* Pods-ANTPageControl_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12DE1A18C4975148EEE4FB7E9635BC72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2399E0571DD019450043B8D0 /* ANTPageControl.m in Sources */,
+				0D11F3E605F1EE156813A40661689BF6 /* ANTPageControl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B3A8A3AC94D8790FFC1A9176E38DE92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9E0BFE6B02F43AFA64F6FF3397B70D /* Pods-ANTPageControl_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DBBEC3F933423FE5089073F2AB7567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F17562A62B326F0A0A98906A15C677 /* Pods-ANTPageControl_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CFBFAB89703A2E32CF3174BEEA6B6FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ANTPageControl;
+			target = 03A811F4B3C708BA825C06E1D955FD7A /* ANTPageControl */;
+			targetProxy = 8A07D49D7D2A1AD0DC13990EF76181C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00AC91E6C581FE58D99F35408C3CB56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D839D63AE24CA29A9426C1B2C65450C5 /* Pods-ANTPageControl_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ANTPageControl_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ANTPageControl_Example/Pods-ANTPageControl_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ANTPageControl_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		880A65FB252EE5168F7F278513815EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1CB4FD6D8E9148A99D46D790984A60C /* ANTPageControl.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ANTPageControl/ANTPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ANTPageControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ANTPageControl/ANTPageControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ANTPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89B3B1DB30B803BE318DB7683CFD0931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F34BF964F19A8BF69DF7120B0B850026 /* Pods-ANTPageControl_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ANTPageControl_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ANTPageControl_Example/Pods-ANTPageControl_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ANTPageControl_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9547D81C444A947F6976C0007EAD8291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33AB18E83380414EA0AE55279D1EA818 /* Pods-ANTPageControl_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ANTPageControl_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ANTPageControl_Tests/Pods-ANTPageControl_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ANTPageControl_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C83FB9E0D2815D9D4711E87EAAFE4C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1CB4FD6D8E9148A99D46D790984A60C /* ANTPageControl.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ANTPageControl/ANTPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ANTPageControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ANTPageControl/ANTPageControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ANTPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F64C953F7AC83A1A1802EA80F34F716E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68DD62AAC37ACB3CF1FB1E34C15E3906 /* Pods-ANTPageControl_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ANTPageControl_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ANTPageControl_Tests/Pods-ANTPageControl_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ANTPageControl_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1313675E85B03CF3A26E89D2CF40A866 /* Build configuration list for PBXNativeTarget "Pods-ANTPageControl_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89B3B1DB30B803BE318DB7683CFD0931 /* Debug */,
+				00AC91E6C581FE58D99F35408C3CB56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272AF3F50506F7791708339C6800132B /* Build configuration list for PBXNativeTarget "ANTPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83FB9E0D2815D9D4711E87EAAFE4C2F /* Debug */,
+				880A65FB252EE5168F7F278513815EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B3D92E67CFEC7E69B394E01D636243 /* Build configuration list for PBXNativeTarget "Pods-ANTPageControl_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64C953F7AC83A1A1802EA80F34F716E /* Debug */,
+				9547D81C444A947F6976C0007EAD8291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

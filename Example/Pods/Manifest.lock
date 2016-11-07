@@ -1,0 +1,16 @@
+PODS:
+  - ANTPageControl (0.1.0)
+
+DEPENDENCIES:
+  - ANTPageControl (from `../`)
+
+EXTERNAL SOURCES:
+  ANTPageControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ANTPageControl: 6583ff18c6daaea6c6382d82d60575e7940d7c0f
+
+PODFILE CHECKSUM: 68aaa403f472c0ee0d869f426b1d1fafa0294539
+
+COCOAPODS: 1.1.0.rc.2
